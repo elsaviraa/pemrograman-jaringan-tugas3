@@ -99,7 +99,7 @@ public class tugasprakController {
                         writer.flush();
                         writer.close();
                         view.getTxtPane().setText("");
-                        JOptionPane.showMessageDialog(null,"Berhasil","Success",JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(null,"Berhasil Disimpan","Success",JOptionPane.INFORMATION_MESSAGE);
                     } catch (IOException ex) {
                         Logger.getLogger(tugasprakController.class.getName()).log(Level.SEVERE,null,ex);
                     }

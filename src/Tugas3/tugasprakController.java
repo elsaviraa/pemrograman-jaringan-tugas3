@@ -104,7 +104,7 @@ public class tugasprakController {
                         Logger.getLogger(tugasprakController.class.getName()).log(Level.SEVERE,null,ex);
                     }
                 }else{
-                     JOptionPane.showMessageDialog(null,"Data Tidak Boleh Kosong","Error",JOptionPane.ERROR_MESSAGE);
+                     JOptionPane.showMessageDialog(null,"Data Tidak Boleh Kosong!","Error",JOptionPane.ERROR_MESSAGE);
                 }
             }
         }
